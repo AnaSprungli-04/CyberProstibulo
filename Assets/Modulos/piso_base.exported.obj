@@ -1,0 +1,95 @@
+#File written by RizomUV 2023.0.71.gd738df3e. Compilation :Nov  3 2023,11:50:08
+mtllib piso_base.mtl
+#begin vertices
+v -2.909695 -0.001359 5.880665
+v 3.005179 -0.001359 5.880665
+v -2.909695 -0.001359 -0.034209
+v 3.005179 -0.001359 -0.034209
+v -2.485308 -0.001359 5.880664
+v 2.580791 -0.001359 5.880664
+v 2.580791 -0.001359 -0.034209
+v -2.485308 -0.001359 -0.034209
+v 3.005179 -0.001359 5.880665
+v 3.005179 -0.001359 -0.034209
+v 2.683029 -0.001359 5.880664
+v 2.580791 -0.001359 5.880664
+v 2.610736 -0.001359 5.880664
+v 2.580791 -0.001359 -0.034209
+v 2.683029 -0.001359 -0.034209
+v 2.610736 -0.001359 -0.034209
+#end vertices
+
+#begin 20 textures vertices 
+vt 0.8627532 0.00390625 0
+vt 0.848697 0.004155492 0
+vt 0.859375 0.8966235 0
+vt 0.8453364 0.8968819 0
+vt 0.007284404 0.00390625 0
+vt 0.771889 0.006808608 0
+vt 0.76852 0.8995167 0
+vt 0.9234267 0.8968659 0
+vt 0.8486779 0.004164418 0
+vt 0.8453176 0.8968895 0
+vt 0.8000657 0.003971718 0
+vt 0.7846185 0.00390625 0
+vt 0.7891547 0.003930453 0
+vt 0.7685315 0.8995002 0
+vt 0.7966895 0.8966888 0
+vt 0.7857785 0.8966475 0
+vt 0.00390625 0.8966233 0
+vt 0.9268048 0.004148781 0
+vt 0.78125 0.8966138 0
+vt 0.7718999 0.006792605 0
+#end 20 textures vertices 
+
+#begin 2 normals 
+vn -0 1 -0
+vn -1 -0 -0
+#end 2 normals 
+
+#begin 7 faces
+o Plane:003
+usemtl piso_nada
+s 0
+f 8/17/1 5/5/1 6/6/1 7/7/1 
+f 12/12/1 13/13/1 16/16/1 14/19/1 
+f 16/16/1 13/13/1 11/11/1 15/15/1 
+f 15/15/1 11/11/1 9/9/1 10/10/1 
+f 10/10/2 9/9/2 2/2/2 4/4/2 
+f 12/20/2 14/14/2 7/7/2 6/6/2 
+f 5/18/1 8/8/1 3/3/1 1/1/1 
+#end 7 faces
+
+#ZOMPROPERTIES_04{
+#ZOMPROPERTIES_04 table {Mesh table {SymPlane table {Point vector3d 0 0 0 Normal vector3d 1 0 0 Threshold double 0.01 
+#ZOMPROPERTIES_04 Enabled bool false EdgeID int -1 SymEdgeID int -1 UPos double 0.5 LocalMode bool false } RootGroup C
+#ZOMPROPERTIES_04 SubMeshGroup {Children table {Tile_0_0 CSubMeshGroup {Children table {} BBoxUV box3d 0 0 0 0 0 0 BBo
+#ZOMPROPERTIES_04 x3D box3d 0 0 0 0 0 0 Area3D double 0 AreaUV double 0.796985 IsRoot bool false Properties table {Sel
+#ZOMPROPERTIES_04 ected bool false Box box3d 0 1 0 1 0 1 U int 0 V int 0 NU int 0 NV int 0 Tiling vector3d 1 1 1 TileR
+#ZOMPROPERTIES_04 atioMode string "1:1" Overflow string "Off" Pack table {BoxFrameEdit bool false Behavior string "Fre
+#ZOMPROPERTIES_04 e" } } IsTile bool true PolyIDs ints { 6 1 2 3 4 0 5 } } } BBoxUV box3d 0 0 0 0 0 0 BBox3D box3d 0 0
+#ZOMPROPERTIES_04  0 0 0 0 Area3D double 0 AreaUV double 0 IsRoot bool true Properties table {Selected bool false Box 
+#ZOMPROPERTIES_04 box3d 0 1 0 1 0 1 U int 0 V int 0 NU int 1 NV int 1 Tiling vector3d 1 1 1 TileRatioMode string "1:1"
+#ZOMPROPERTIES_04  Overflow string "Off" Pack table {Rotate table {Mode int 0 Min double 0 Max double 90 Step double 0
+#ZOMPROPERTIES_04  } PaddingSize double 0.0078125 MarginSize double 0.00390625 Resolution int 256 MapResolution int 20
+#ZOMPROPERTIES_04 48 Scaling table {TexelDensity double 1024 Mode int 0 } LayoutScalingMode int 2 MaxMutations int 1 }
+#ZOMPROPERTIES_04  } IsTile bool false PolyIDs ints { } } Maps table {Pin table {PrimType string "Vertex" Size int 1 D
+#ZOMPROPERTIES_04 efaultValue double 0 ScaleType string "Normalized" MergeMode string "Max" MinValue double 0 MaxValue
+#ZOMPROPERTIES_04  double 1 Data doubles { r 20 0 } } Density table {PrimType string "Polygon" Size int 1 DefaultValue
+#ZOMPROPERTIES_04  double 1 ScaleType string "Log" MergeMode string "Average" MinValue double 0.1 MaxValue double 4 Da
+#ZOMPROPERTIES_04 ta doubles { r 7 1 } } Protect table {PrimType string "Vertex" Size int 1 DefaultValue double 0 Scal
+#ZOMPROPERTIES_04 eType string "Normalized" MergeMode string "Average" MinValue double -1 MaxValue double 1 Data doubl
+#ZOMPROPERTIES_04 es { r 20 0 } } } } }
+#ZOMPROPERTIES_04}
+
+
+#ZOMSCENE_01{
+#ZOMSCENE_01 CScene {Settings table {AxisSystem table {UpVector string "y" } Unit string "cm" TexelDensityDisplay
+#ZOMSCENE_01 Unit string "tx/cm" } Root table {} }
+#ZOMSCENE_01}
+
+#begin 0 fatal error vertex (that RizomUV cannot handle)
+#end 0 fatal error vertex (that RizomUV cannot handle)
+
+#begin 0 error vertex
+#end 0 error vertex
